@@ -1,0 +1,1251 @@
+@font-face {
+    font-family: PopinReg;
+    src: url('../fonts/Poppins/Poppins-Regular.ttf');
+}
+
+@font-face {
+    font-family: PopinMed;
+    src: url('../fonts/Poppins/Poppins-Medium.ttf');
+}
+
+@font-face {
+    font-family: PopinSBold;
+    src: url('../fonts/Poppins/Poppins-SemiBold.ttf');
+}
+
+@font-face {
+    font-family: PopinsExtraLight;
+    src: url('../fonts/Poppins/Poppins-ExtraLight.ttf');
+}
+
+@font-face {
+    font-family: PopinsLight;
+    src: url('../fonts/Poppins/Poppins-Light.ttf');
+}
+
+
+
+
+
+
+*{
+    box-sizing: border-box;
+}
+
+html{
+    font-size: 10px;
+}
+
+.navbar>.container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    max-width: 1716px;
+    width: 90%;
+}
+
+
+ul {
+    margin: 0;
+    padding: 0;
+}
+
+ul li {
+    color: white;
+   list-style-type:none;
+}
+
+
+
+
+
+
+.contactlink{
+    width: 225px;
+}
+
+
+
+
+@media (max-width: 425px) {
+    .contactlink{
+        width: 225px;
+    }
+}
+
+.more{
+    margin-left: 74px;
+}
+
+.number, .links-nav1{
+    font-family:"PopinReg";
+    font-size: 1.8rem;
+    color: #FFFFFF;
+    text-decoration: none;
+}
+
+@media (max-width: 1024px) {
+    .number, .links-nav1{
+        font-size: 1.4rem;
+    }
+}
+
+.nav-link-n{
+    display: block;
+    padding: 0.5rem 0rem;
+    text-decoration: none;
+    transition: color .25s ease-in-out,background-color .25s ease-in-out,border-color .25s ease-in-out;
+}
+
+
+.number:hover{
+    color: #fff;
+}
+
+
+.links-nav2{
+    font-family:"PopinMed";
+    font-size: 2.2rem;
+    color: #000000;
+}
+
+@media (max-width: 1024px) {
+    .links-nav2{
+        font-size: 1.8rem;
+    }
+}
+
+ .nav-icons{
+   display: flex;
+  align-items: center;
+} 
+
+
+@media (max-width: 360px) {
+    .valuelogo{
+        width: 192px;
+    }
+   
+}
+
+.Icons{
+    font-size: 1.8rem;
+}
+
+.main-wrapper img{
+    width:100%;
+   
+
+}
+
+.main-wrapper{
+    position:relative;
+}
+.main-content{
+    position:absolute;
+    top:20%; 
+    width:100%;
+    left:0;
+    bottom:0; 
+    background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0), rgba(0, 0, 0,1));
+   
+
+}
+.main-content p{
+    font-family:PopinReg;
+    font-size:4.5rem;
+    color:#FFFFFF;
+}
+.main-content h1{
+    font-family:"PopinSBold";
+    font-size:5.2rem;
+    color:#FFFFFF;
+}
+@media screen and (min-width:728px) and (max-width:1200px){
+    .main-content p{
+       font-size:3rem;
+        color:#FFFFFF;
+    }
+.main-content h1{
+    font-family:"PopinSBold";
+    font-size:3rem;
+    color:#FFFFFF;
+}
+
+}
+
+@media screen and (min-width:320px) and (max-width:727px){
+    
+    .main-content p{
+       font-size:0.8rem;        
+    }
+   .main-content h1{
+    font-size:1rem;
+    
+}
+
+}
+.form-values{
+    position:relative;
+}
+.form-container{
+    position: absolute; 
+    left: 50%;
+    bottom: -100px;
+    transform: translate(-50%,-50%);
+     max-height: 206px;
+    height: 140px;
+    max-width: 1716px;
+     width: 90%; 
+     padding:2.5rem;
+    background-color: #F43535;
+}
+
+.input-field {
+    width:200px;
+    background-color: transparent;
+    border: 0;
+    outline: 0;
+    border-bottom: 1px solid #ffffff;
+    color: #ffffff;
+    margin: 1.5rem;
+    font-family:"poppins-regular";
+    font-size: 1.4rem;
+    
+}
+::-webkit-input-placeholder {
+    color: #ffffff;
+}
+
+.request-text {
+    font-size:1.8rem;
+    font-family:"PoppinsRegular";
+    color:#FFFFFF;
+
+}
+.risk-text{
+    font-weight:"PoppinsSemiBold";
+    font-size:2.2rem;
+    font-family:"Poppins";
+    
+}
+.request-btn{
+    width:130px;
+    height:60px;
+    background-color:#DD4444 ;
+    border:1px solid #707070;
+    color:#FFFFFF;
+    font-family:"PoppinsPoppins";
+    font-size:1.5rem;
+}
+
+@media (min-width:1400px){
+ .form-container{
+        max-width: 1350px;
+        padding:2rem;
+       
+    } 
+
+}
+
+ @media screen and (min-width:728px) and (max-width:1250px){
+    .form-container{
+        max-width: 1050px;
+       padding:2rem;
+       
+    } 
+    .input-field {
+        /* width:100px;  */
+        margin:1rem;
+       
+    }
+
+    .request-text {
+        font-size:1.5rem;
+      
+    
+    }
+    .risk-text{
+       font-size:2rem;
+       
+        
+    }
+    .request-btn{
+        width:100px;
+        height:40px;
+        font-size:1rem;
+    }
+} 
+
+@media screen and (min-width:320px) and (max-width:727px){
+    .form-inputs{
+        display:flex;
+        flex-direction:column;
+        justify-content:center;
+        align-items:center;
+
+    }
+    .form-container{
+        max-width: 200px;
+        height:100px;
+        padding:0;
+       
+    }
+    .input-field {
+         width:50px; 
+        margin:5px;
+        font-size:0.4rem;
+       
+    }
+
+    .request-text {
+        font-size:0.8rem;
+        text-align:center;
+    
+    }
+    .risk-text{
+       font-size:0.8rem;
+       text-align:center;
+       
+        
+    }
+    .request-btn{
+        width:20px;
+        height:10px;
+        font-size:0.2rem;
+    }
+
+
+
+
+}
+
+    
+
+
+.text-content{
+    font-family:"PopinsExtraLight";
+    color: #000000;
+    font-size: 2rem;
+    max-width: 1430px;
+    padding:60px; 
+    width: 80%;
+}
+   
+
+@media  (min-width:320px) and (max-width:727px){
+
+    .text-content{
+        font-size: 1rem;
+    }
+   
+}  
+
+
+@media (min-width: 1440px){
+    .text-content{
+        font-size: 3rem;
+    }
+}   
+  
+
+
+
+
+ 
+      .value-numbers{
+        background: linear-gradient(to left, rgba(224,229,232,0),rgba(226,231,234,0.4), rgba(226,231,234,0.4),rgba(224,229,232,0)); 
+        padding: 6rem 0px 6rem 0px;
+       
+        
+       
+     }
+    .valuehead{
+        font-size:5rem;
+       
+    }
+    
+      
+
+    .count{
+        font-family:PopinsExtraLight;
+        font-size: 6rem;
+        line-height: 8.5rem;
+      
+    }
+    .card-title{
+        font-family:PopinSBold;
+        font-size: 1.8rem;
+        line-height: 3rem;
+    }
+    .count-subtitle{
+        font-family:PopinsLight;
+        font-size: 1.8rem;
+        line-height: 3rem;
+       
+    }
+
+@media (min-width: 1440px){
+         .count{
+            font-size: 8rem;
+            line-height: 145px;
+        }
+        
+        .card-title{
+            font-size: 2.2rem;
+            line-height: 40px;
+        }
+        
+        .card-subtitle{
+            font-size: 2.2rem;
+            line-height: 30px;
+        }
+    }   
+    
+
+
+
+    @media (max-width: 992px)  {
+        .value-numbers .valuehead{
+            font-size: 3rem;
+        }
+        
+        .card1{
+          margin: 5px;
+        }
+        
+        
+        .count{
+            font-size: 5rem;
+            line-height: 8.5rem;
+        }
+        
+        .card-title{
+            font-size: 1.6rem;
+            line-height: 3rem;
+        }
+        
+        .card-subtitle{
+            font-size: 1.6rem;
+            line-height: 3rem;
+        }    
+    }
+    
+    @media (min-width: 426px) and (max-width: 992px) {
+        .value-numbers .valuehead{
+            font-size: 4rem;
+        }
+    }  
+    
+     
+
+
+
+ 
+    .visiontitle,.missiontitle{
+    font-family: PopinsLight;
+    font-size: 4.5rem;
+    color:#FFFFFF;
+    /* line-height:35px; */
+}
+.visionsubtitle,.missionsubtitle{
+    font-family: PopinsExtraLight;
+    font-size: 2.2rem;
+    color:#FFFFFF;
+   /* line-height:35px; */
+ 
+}
+ 
+    .mission1{
+        background-color:#242424;
+        text-align:center;
+     
+
+    }
+
+    .mission2{
+        background-color:#000000;
+        text-align:center;
+
+    }
+
+
+    
+    @media (max-width: 575.98px) { 
+       .visiontitle,.missiontitle{
+            font-size: 3.2rem;
+        }
+        .visionsubtitle,.missionsubtitle{
+            font-size: 1.2rem;
+        }
+     }
+    
+    @media (min-width: 576px) and (max-width: 767.98px) {
+        
+        .visiontitle,.missiontitle{
+            font-size: 3.2rem;
+        }
+        .visionsubtitle,.missionsubtitle{
+            font-size: 1.2rem;
+        }
+    }
+    
+    @media (min-width: 768px) and (max-width: 991.98px) {
+       .visiontitle,.missiontitle{
+            font-size: 3.4rem;
+        }
+        .visionsubtitle,.missionsubtitle{
+            font-size: 1.4rem;
+        }
+        
+    }
+    @media (min-width: 992px) and (max-width: 1199.98px) { 
+       .visiontitle,.missiontitle{
+            font-size: 3.6rem;
+        }
+        .visionsubtitle,.missionsubtitle{
+            font-size: 1.6rem;
+        }
+     }
+    
+    @media (min-width: 1200px) and (max-width: 1399.98px) { 
+        .visiontitle,.missiontitle{
+            font-size: 3.8rem;
+        }
+        .visionsubtitle,.missionsubtitle{
+            font-size: 1.8rem;
+        }
+     }
+    
+   
+    
+
+    
+
+
+    .clientle-section{
+        background-color:rgba(110,123,136,0.06);
+        max-width:1962px;
+        height:600px;
+
+    }
+    
+    .cilenttitle{
+        font-family: PopinMed;
+        font-size:6.1rem;
+
+
+    }
+    .clientsubtitle{
+        font-family: PopinsLight;
+        font-size:2.2rem;
+
+    }
+   
+    
+
+ 
+
+ @media (min-width:1400px) {
+    
+    
+    .imgvalue{
+        padding:2.6rem;
+        background-color:white;
+    }
+    .Logo{
+        width:220px;
+        height:140px;
+    }  
+    
+
+
+
+}
+
+@media  (min-width:1200px) and (max-width:1399px){
+    
+    
+    .imgvalue{
+        padding:2rem;
+        background-color:white;
+    }
+    .Logo{
+        width:170px;
+        height:120px;
+    }  
+    
+
+
+
+}
+
+@media (min-width: 992px) and (max-width: 1199.98px){
+
+    .imgvalue{
+        padding:1.8rem;
+        background-color:white;
+    }
+    .Logo{
+        width:130px;
+        height:100px;
+    }  
+    
+
+
+}
+
+@media (min-width: 768px) and (max-width: 991.98px) {
+
+    .imgvalue{
+        padding:1.5rem;
+        background-color:white;
+    }
+    .Logo{
+        width:10rem;
+        height:10rem;
+    }  
+    
+
+
+}
+
+@media (min-width: 576px) and (max-width: 767.98px) {
+    .cilenttitle{
+      font-size:4rem;
+
+
+    }
+    .clientsubtitle{
+        font-size:1.6rem;
+
+    }
+
+    .imgvalue{
+        padding:1.2rem;
+        background-color:white;
+    }
+    .Logo{
+        width:6rem;
+        height:4rem;
+    }  
+
+
+
+
+}
+
+@media (max-width: 575.98px){
+    .cilenttitle{
+        font-size:2rem;
+  
+  
+      }
+      .clientsubtitle{
+          font-family:"Poppins";
+          font-size:1.2rem;
+  
+      }
+  
+
+    .imgvalue{
+         background-color:white;
+         text-align:center;
+    }
+    .Logo{
+        width:55px;
+        height:35px;
+        text-align:center;
+    }  
+
+}
+
+
+     .google-partner{
+        width:100%;
+       padding:5rem; 
+      max-width:1642px;
+      
+    }
+
+   
+
+    .certi-head{
+        font-family: PopinMed;
+        font-size:6.1rem;
+       
+
+
+    }
+    .certi-para{
+        font-family: PopinsLight;
+        font-size:2rem;
+        /* line-height:35px; */
+       
+    }
+   
+    .google-image{
+        width:300px;
+
+    }  
+    @media (max-width: 575.98px){
+       
+        .certi-head{
+            font-size: 3.6rem;
+            text-align: center;
+         }
+         .certi-para{
+            font-size: 1.2rem;
+            text-align: center;
+         }
+         .google-image{
+            width:15rem;
+            margin: auto;
+             
+     
+   }
+        
+}
+
+     @media (min-width: 576px) and (max-width: 767.98px) {
+        .certi-head{
+            font-size: 4.2rem;
+            text-align: center;
+         }
+         .certi-para{
+            font-size: 1.4rem;
+            text-align: center;
+         }
+         .google-image{
+            width:15rem;
+            margin: auto;
+             
+     
+   }
+     }
+    
+    
+    
+     @media (min-width: 768px) and (max-width: 991.98px) {
+       
+        .certi-head{
+            font-size: 4.8rem;
+         }
+         .certi-para{
+            font-size: 1.6rem;
+         }
+     }
+    
+     @media (min-width: 992px) and (max-width: 1199.98px){
+          
+        .certi-head{
+            font-size: 5rem;
+         }
+         .certi-para{
+            font-size: 1.6rem;
+         }
+     }
+    
+     @media (min-width: 1200px) and (max-width: 1399.98px) {
+       
+        .certi-head{
+            font-size: 5.2rem;
+         }
+         .certi-para{
+            font-size: 1.8rem;
+         }
+     }
+    
+     
+    
+   
+
+    
+     .benifts{
+        max-width:1921px; 
+        background-color:#F43535;
+    }
+    .benifs-head{
+        font-family: PopinsLight;
+        color:#FFFFFF;
+        text-align:center;
+      
+    }
+     
+
+   
+
+
+     .bg-groups{
+         max-width:1962px; 
+         width:100%;
+         background-image: url("./images/bridge.png"); 
+          height:997px; 
+         background-size:cover;
+        
+     }
+     .global{
+         max-width:1629px;
+         color:white;
+         margin:20px;
+         height:760px;
+         background-color:white ;
+
+     }
+     .information{
+         padding:4.2rem;
+     }
+    .sidebar{
+        background-color:#000000;
+        color:white;
+        padding:5.2rem;
+    }
+    .globalpresence{
+        font-family: PopinMed;
+        font-size:6.1rem;
+    }
+    .globalsubtitle{
+        font-family: PopinsLight;
+        font-size:2.2rem; 
+    }
+    .office-title {
+        font-family: PopinMed;
+        font-size:2.5rem;
+        color:#000000
+    }
+    .office-subtile{
+        font-family: PopinsLight;
+        font-size:1.8rem;
+        color:#000000;
+    }
+    .contact-icons{
+       color:#F43535;
+
+    }
+    .text-contact{
+        font-family: PopinsLight;
+        font-size:2.2rem;
+        color:#000000;
+    }
+   
+
+    @media screen and (min-width:767px) and (max-width:1024px){
+
+        .globalpresence{
+           font-size:3.8rem;
+           
+        }
+        .globalsubtitle{
+           font-size:2rem; 
+          
+        }
+        .office-title {
+            font-size:1.8rem;
+           
+           
+        }
+        .office-subtile{
+           font-size:1.3rem;
+          
+           
+        }
+        .contact-icons{
+           color:#F43535;
+    
+        }
+        .text-contact{
+           font-size:1.3rem;
+            
+        }
+        .information{
+            padding:4.2rem;
+        }
+              
+
+
+
+    }
+
+    @media (min-width:320px) and (max-width:766px){
+
+        .globalpresence{
+            font-size:2.1rem;
+         }
+         .globalsubtitle{
+            font-size:1.5rem; 
+         }
+         .office-title {
+             font-size:1.5rem;
+            
+         }
+         .office-subtile{
+            font-size:1rem;
+            
+         }
+         .text-contact{
+            font-size:1rem;
+             
+         }
+         .sidebar{
+           padding:1rem;
+           text-align:center;
+        }
+         .information{
+
+             padding:0.5rem;
+            text-align:center;
+        }
+ 
+ 
+     }
+
+ /* .blog-content{
+  width:100%;
+    
+   
+}
+
+.blog-title{
+    font-family:PopinsMedium;
+    font-size:30px;
+    color:#EA3A3A;
+
+
+}
+.blog-subtitle{
+    font-family:PopinsExtraLight;
+    font-size:50px;
+}
+
+
+.card{
+  background-color:rgb(255,255,255);
+  max-width:1722px;
+  height:370px; 
+ 
+}
+
+.social-content{
+    font-family: PopinsLight;
+    font-size:18px;
+    text-align:start;
+   
+   
+}
+.arrow-img{
+    text-decoration:none;
+    font-size:20px;
+    color:#000000;
+    text-align:start;
+
+}
+
+.arrow-img:hover{
+   color:#ffffff;
+   transition: .1s ease-in;
+
+}
+.newblog{
+    height:888px;
+} 
+   @media (max-width: 575.98px){
+    .blog-title{
+        font-size: 1.8rem;
+       
+    }
+    .blog-subtitle{
+        font-size: 2rem;
+    }
+    
+    .card{
+        max-width:320px;
+        height: 360px;
+        margin: auto;
+    } 
+   
+    .social-content{
+        font-size: 1.4rem;
+      
+   
+}
+.newblog{
+    height:888px;
+}
+}  */
+
+
+  @media (min-width: 576px) and (max-width: 767.98px) {
+    .blog-title{
+        font-size: 2rem;
+       
+    }
+    .blog-subtitle{
+        font-size: 2.8rem;
+    }
+   
+   .card{
+    max-width:560px; 
+    height:560px;
+    margin: auto;
+       
+    }
+   
+    .social-content{
+        font-size: 1.4rem;
+      
+    }
+  
+} 
+  
+
+
+ .main-container{
+      background-color: black;
+      width:800px;
+      height:300px;
+      position: absolute;
+      top: 640%;
+      left: 25%;
+      z-index: 1;
+  }
+  @media (min-width:1400px) {
+  
+      .main-container{
+          top: -20%;
+          left: 50%;
+          transform:translateX(-50%);
+         
+  }
+  }
+  @media  (min-width:1200px) and (max-width:1399px){
+  
+      .main-container{
+          top: -20%;
+          left: 50%;
+          transform:translateX(-50%);
+  }
+  }
+  @media (min-width: 992px) and (max-width: 1199.98px){
+      .main-container{
+          top: -20%;
+          left: 50%;
+          transform:translateX(-50%);
+  }
+  
+  }
+  @media (min-width: 768px) and (max-width: 991.98px) {
+      .main-container{
+          top: -20%;
+          left: 50%;
+          transform:translateX(-50%);
+         
+
+  }
+
+
+
+  
+  }
+  
+  .head-1{
+      color: red;
+      font-size: 20px;
+      font-family:PoppinsRegular;
+  }
+  .head-2{
+      color: white;
+      font-size: 30px;
+      font-family:PoppinsExtraLight
+  }
+  .text-1{
+      border-top: transparent;
+      border-left: transparent;
+      border-right: transparent;
+      border-bottom: #fff 1px solid;
+      background-color: transparent;
+      color: white;
+  }
+  ::placeholder{
+      color: white;
+  }
+  .button-1{
+      width: 40px;
+      height: 40px;
+      color: white;
+      background-color: red;
+      border-width: 0px;
+  }
+  .image-1{
+      width: 150px;
+  }
+  .footer-container{
+      background-color: #E2E7EA;
+      height: 500px;
+      position: relative;
+      z-index: -1;
+  }
+  .wrapper{
+      position: absolute;
+      content: "";
+      top: 40%;
+      left: 0%;
+  }
+  .footer-2{
+      border-right: #000 1px dashed;
+  }
+  .para-1{
+      font-family:"PoppinsLight";
+      font-size: 14px;
+  }
+  .footer-head{
+      font-family:PoppinsRegular;
+      font-size: 20px;
+  }
+  .anchor{
+      font-size: 15px;
+      color: #000000;
+      text-decoration: none;
+     font-family:"PoppinsRegular";
+  }
+  .copyrights{
+      color: #000;
+  } 
+  
+  
+   .blog-content{
+      width:1722px;
+        width:100%; 
+      
+   }
+   
+   .blog-title{
+       font-family:PopinsMedium;
+       font-size:30px;
+       color:#EA3A3A;
+   
+   
+   }
+   .blog-subtitle{
+       font-family:PopinsExtraLight;
+       font-size:50px;
+   }
+   
+   
+   .card{
+     background-color:rgb(255,255,255);
+     height:370px; 
+    
+   }
+   
+   .social-content{
+       font-family: PopinsLight;
+       font-size:18px;
+       text-align:start;
+      
+      
+   }
+   .arrow-img{
+       text-decoration:none;
+       font-size:20px;
+       color:#000000;
+       text-align:start;
+   
+   }
+   
+   .arrow-img:hover{
+      color:#ffffff;
+      transition: .1s ease-in;
+   
+   }
+   .newblog{
+       height:888px;
+       position: relative;
+   }
+     @media (max-width: 575.98px){
+       .blog-title{
+           font-size: 1.8rem;
+          
+       }
+       .blog-subtitle{
+           font-size: 2rem;
+       }
+       
+       .card{
+           max-width:320px;
+           height: 360px;
+           margin: auto;
+       } 
+      
+       .social-content{
+           font-size: 1.4rem;
+         
+      
+   }
+   .newblog{
+       height:888px;
+   }
+   }
+   
+   
+    @media (min-width: 576px) and (max-width: 767.98px) {
+       .blog-title{
+           font-size: 2rem;
+          
+       }
+       .blog-subtitle{
+           font-size: 2.8rem;
+       }
+      
+      .card{
+       max-width:560px; 
+       height:560px;
+       margin: auto;
+          
+       }
+      
+       .social-content{
+           font-size: 1.4rem;
+         
+       }
+       
+     
+   } 
+  
+    @media (min-width: 768px) and (max-width: 991.98px) {
+      .blog-title{
+          font-size: 2rem;
+         
+      }
+      .blog-subtitle{
+          font-size: 2.8rem;
+      }
+     
+     .card{
+      max-width:360px; 
+      height:360px;
+      margin: auto;
+         
+      }
+     
+      .social-content{
+          font-size: 1.4rem;
+        
+      }
+      .newblog{
+          height:1033px;
+      }
+      
+    
+  } 
+
+
+
+
+
+
+
+
+
+
+
+ 
