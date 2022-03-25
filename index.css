@@ -974,7 +974,7 @@ ul li {
 }  */
 
 
-  @media (min-width: 576px) and (max-width: 767.98px) {
+  /* @media (min-width: 576px) and (max-width: 767.98px) {
     .blog-title{
         font-size: 2rem;
        
@@ -996,7 +996,7 @@ ul li {
     }
   
 } 
-  
+   */
 
 
  .main-container{
@@ -1004,11 +1004,11 @@ ul li {
       width:800px;
       height:300px;
       position: absolute;
-      top: 640%;
-      left: 25%;
-      z-index: 1;
+      top: -20%;
+      left: 50%;
+      transform:translateX(-50%);
   }
-  @media (min-width:1400px) {
+  * @media (min-width:1400px) {
   
       .main-container{
           top: -20%;
@@ -1045,7 +1045,7 @@ ul li {
 
 
   
-  }
+  } 
   
   .head-1{
       color: red;
@@ -1107,6 +1107,10 @@ ul li {
       text-decoration: none;
      font-family:"PoppinsRegular";
   }
+  .social-icons {
+      text-decoration:none;
+      color:#000000;
+  }
   .copyrights{
       color: #000;
   } 
@@ -1136,6 +1140,12 @@ ul li {
      height:370px; 
     
    }
+   .card-body{
+       display:flex;
+       flex-direction:column;
+       justify-content:space-between;
+
+   }
    
    .social-content{
        font-family: PopinsLight;
@@ -1161,7 +1171,7 @@ ul li {
        height:888px;
        position: relative;
    }
-     @media (max-width: 575.98px){
+      @media (max-width: 575.98px){
        .blog-title{
            font-size: 1.8rem;
           
@@ -1170,12 +1180,12 @@ ul li {
            font-size: 2rem;
        }
        
-       .card{
+       /* .card{
            max-width:320px;
            height: 360px;
            margin: auto;
        } 
-      
+       */
        .social-content{
            font-size: 1.4rem;
          
@@ -1185,9 +1195,9 @@ ul li {
        height:888px;
    }
    }
+    
    
-   
-    @media (min-width: 576px) and (max-width: 767.98px) {
+     @media (min-width: 576px) and (max-width: 767.98px) {
        .blog-title{
            font-size: 2rem;
           
@@ -1196,10 +1206,10 @@ ul li {
            font-size: 2.8rem;
        }
       
-      .card{
+      /* .card{
        max-width:560px; 
        height:560px;
-       margin: auto;
+       margin: auto; */
           
        }
       
@@ -1210,8 +1220,8 @@ ul li {
        
      
    } 
-  
-    @media (min-width: 768px) and (max-width: 991.98px) {
+   
+     @media (min-width: 768px) and (max-width: 991.98px) {
       .blog-title{
           font-size: 2rem;
          
@@ -1237,10 +1247,6 @@ ul li {
       
     
   } 
-
-
-
-
 
 
 
